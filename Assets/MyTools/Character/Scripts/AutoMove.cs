@@ -6,7 +6,7 @@ public class AutoMove : CharacterPattern
 {
     public enum MoveAxis
     {
-        X, Y,Z
+        X,Y,Z
     }
 
     public MoveAxis Axis;
