@@ -1,4 +1,4 @@
-﻿jeusing System;
+﻿using System;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Character Patterns/AutoMove")]
