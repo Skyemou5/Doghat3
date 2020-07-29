@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class NewMovement : MonoBehaviour
 {
-    
+    public void move()
+    {
+        
+    }
 }
