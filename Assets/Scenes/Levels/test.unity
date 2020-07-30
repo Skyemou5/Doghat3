@@ -447,7 +447,7 @@ PrefabInstance:
     - target: {fileID: 3480593088623718468, guid: 2eee90d3edb5aaad8be8c1369596c0a5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5
+      value: -1.55
       objectReference: {fileID: 0}
     - target: {fileID: 3480593088623718468, guid: 2eee90d3edb5aaad8be8c1369596c0a5,
         type: 3}
@@ -457,7 +457,7 @@ PrefabInstance:
     - target: {fileID: 3480593088623718468, guid: 2eee90d3edb5aaad8be8c1369596c0a5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.64
+      value: -3.35
       objectReference: {fileID: 0}
     - target: {fileID: 3480593088623718468, guid: 2eee90d3edb5aaad8be8c1369596c0a5,
         type: 3}
@@ -502,7 +502,7 @@ PrefabInstance:
     - target: {fileID: 9165319784095768973, guid: 2eee90d3edb5aaad8be8c1369596c0a5,
         type: 3}
       propertyPath: m_Name
-      value: roomba_generator1 (1)
+      value: Roomba1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2eee90d3edb5aaad8be8c1369596c0a5, type: 3}
