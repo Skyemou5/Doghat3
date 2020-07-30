@@ -2,8 +2,8 @@
 
 namespace MyTools.Character.Scripts.New_Input_System
 {
-    public interface IRotationInput
+    public interface IInteractable
     {
-        Vector3 RotationDirection { get; set; }
+        void Interact();
     }
 }

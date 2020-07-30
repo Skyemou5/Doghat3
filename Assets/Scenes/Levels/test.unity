@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 6c26de5f32e82312a921ed3542013693, type: 2}
 --- !u!1 &120198833
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +253,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &386772950
 MeshCollider:
@@ -343,6 +343,11 @@ GameObject:
   - component: {fileID: 1116646450}
   - component: {fileID: 1116646449}
   - component: {fileID: 1116646453}
+  - component: {fileID: 1116646458}
+  - component: {fileID: 1116646457}
+  - component: {fileID: 1116646456}
+  - component: {fileID: 1116646455}
+  - component: {fileID: 1116646454}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -435,6 +440,108 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27e775123fba8f2d49324cb65689b5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactInput: {fileID: 1116646458}
+  movementInput: {fileID: 1116646457}
+  analogRotationInput: {fileID: 1116646455}
+  mouseRotationInput: {fileID: 1116646456}
+  skillInput: {fileID: 1116646454}
+--- !u!114 &1116646454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116646448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67122c5b620750c919b40138d90ae3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashForce: 50
+  dashLength: 0.5
+--- !u!114 &1116646455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116646448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1d8420336a3152dad0427d5e1eff0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSmoothing: 1
+--- !u!114 &1116646456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116646448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b3d75e96ae1d6e998c27c3e0bccf67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1116646457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116646448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35f35ec19820697faeab287ff3de87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSmoothing: 1
+  speed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 19.812206
+      outSlope: 19.812206
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.049999997
+      value: 0.99061024
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.07498983
+      value: 0.992957
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1116646458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116646448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e282526bbdab97ecdaf260be958068a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1279064114
