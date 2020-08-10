@@ -32,7 +32,9 @@ namespace MyTools.Character.Scripts.New_Input_System
             {
                 _inputActions.Player.Movement.performed += OnMoveInput;
             }
+            
             _inputActions.Player.Interact.performed += OnInteractButton;//add button to memory
+            
             if (analogRotationInput)
             {
                 _inputActions.Player.AnalogAim.performed += OnAnalogAimInput;
