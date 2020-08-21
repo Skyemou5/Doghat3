@@ -6,6 +6,7 @@ namespace MyTools.Character.Scripts.New_Input_System.Monobehaviors
     {
         public virtual void Execute()
         {
+            
         }
     }
 }
